@@ -1,0 +1,24 @@
+.about-container{
+    margin: 20px;
+    
+}
+
+.about{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.about-info p{
+    text-align: center;
+    font-size: 16px;
+    color: gainsboro;
+    line-height: 1.2;
+    padding-bottom: 6px;
+}
+
+@media (min-width: 960px) {
+    .about-info p{
+        text-align: start;
+
+    }
+}
