@@ -1,6 +1,5 @@
 .about-container{
     margin: 20px;
-    
 }
 
 .about{
@@ -8,17 +7,13 @@
     max-width: 1200px;
 }
 
+
+
 .about-info p{
     text-align: justify;
-    font-size: 16px;
+    font-size: 14px;
     color: gainsboro;
-    line-height: 1.2;
+    line-height: 1.5;
     padding-bottom: 6px;
 }
 
-@media (min-width: 960px) {
-    .about-info p{
-        text-align: start;
-
-    }
-}

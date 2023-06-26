@@ -11,10 +11,9 @@ const About = () => {
   return (
     <div className="about-container">
       <div className="about">
-        <h2 className="title">About</h2>
         {about.map((item) => (
           <div className="about-info" key={item._id}>
-            <p className="title">{item.about}</p>
+            <p>{item.about}</p>
           </div>
         ))}
       </div>

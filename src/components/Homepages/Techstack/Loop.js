@@ -27,7 +27,7 @@ export default function Loop() {
 
   return (
     <div className="scroll-container">
-        <h4>Tech Stack</h4>
+        <h4 style={{color:"#FFD700"}}>My Proficiency: Software Skills</h4>
       <div className="techstack-container">
         {techStackImages.map((image, index) => (
           <div className="skill-logo" key={index}>
