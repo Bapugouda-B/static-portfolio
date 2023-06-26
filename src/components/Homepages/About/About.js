@@ -1,6 +1,8 @@
 import React, { useContext } from "react";
 import "./about.css";
+
 import { DataContext } from "../../context/globalContext.js";
+import Loop from "../Techstack/Loop.js";
 
 const About = () => {
   const state = useContext(DataContext);
@@ -16,6 +18,7 @@ const About = () => {
           </div>
         ))}
       </div>
+      <Loop />
     </div>
   );
 };

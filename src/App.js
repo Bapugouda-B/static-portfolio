@@ -12,6 +12,7 @@ import Projects from "./components/Homepages/Projects/Projects.js";
 import Contact from "./components/Homepages/Contact/Contact.js";
 import Footer from "./components/Homepages/Footer/Footer.js";
 
+
 function App() {
 
   return (
